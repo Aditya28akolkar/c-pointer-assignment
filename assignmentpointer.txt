@@ -1,0 +1,29 @@
+﻿C++ Assignments | Pointers | Week 4 
+
+
+Q2 : int *p, q; 
+Ans.  p is a pointer and q is an integer. 
+Q3: Find the output of the following code snippet. 
+int a = 10, b = 20; 
+int *ptr = &a; 
+b = *ptr + 1; 
+ptr = &b; 
+cout << *ptr << ‘ ‘ << a << ‘ ‘ << b; 
+
+
+
+
+Ans.  11 10 11 
+
+
+Q4: Find the output of the following code snippet. 
+int a = 15, b = 20; 
+int *ptr = &a; 
+int *ptr2 = &b; 
+*ptr = *ptr2; 
+Ans.  ptr now points to b 
+Q5: Is the following program snippet correct?
+int a = 10, b = 20; 
+int *ptr; 
+*ptr = 5; 
+No, because *ptr does not contain any address. It has a garbage value.
